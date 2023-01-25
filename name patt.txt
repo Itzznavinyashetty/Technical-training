@@ -1,0 +1,18 @@
+#include <stdio.h>
+int
+main ()
+{
+  char *str = "Navinya";
+ // char str[100];
+  //scanf ("%s", str);
+  for (int i = 7; i >= 1; i--)
+    printf ("%-7.*s\n" ,i, str);
+    printf ("%-7.7s\n",str);
+    printf("%-7.6s\n",str);
+    printf ("%-7.5s\n",str);
+    printf ("%-7.4s\n",str);
+    printf("%-7.3s\n",str);
+    printf ("%-7.2s\n",str);
+    printf ("%-7.1s\n",str);
+   return 0;
+} 
